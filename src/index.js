@@ -13,6 +13,14 @@ const division = require('./division');
 //     .then(function (result) {    
 //     console.log('Subtract', result);
 // })
+
+/**
+ * This function multiplies two number
+ * @param {number} input any number
+ * @param {number} input any number
+ * @returns {number} multiplication of two numbers.
+ */
+
 multiplication.multiply(5,8)
     .then(function (result) {
         console.log('Multiple', result);

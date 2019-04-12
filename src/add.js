@@ -1,17 +1,17 @@
 module.exports = {
-    add: function(a, b){
+    add: function (a, b) {
 
-        return new Promise(function(resolve, reject){
+        return new Promise(function (resolve, reject) {
             try {
-                const result= parseInt(a+b);
-                if(isNaN(result)){
+                const result = parseInt(a + b);
+                if (isNaN(result)) {
                     return reject(new Error('Enter the integer'))
                 }
                 resolve(result)
             } catch (error) {
                 reject(new Error('Enter the integer'))
             }
-            
+
         })
-   }
+    }
 }
